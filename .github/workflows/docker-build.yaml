@@ -32,4 +32,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/dndscreen:${{env.GITHUB_REF_NAME}}
+          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/dndscreen:${{ env.GITHUB_REF_NAME }}
