@@ -5,15 +5,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700&display=swap');
 
 @layer base {
-    body {
-        @apply bg-slate-50;
-    }
-    a {
-        @apply text-blue-800;
-    }
-    a:hover {
-        @apply underline;
-    }
+  body {
+    @apply bg-slate-50;
+  }
+  a {
+    @apply text-blue-800;
+  }
+  a:hover {
+    @apply underline;
+  }
 }
 
 header h1 {
@@ -22,31 +22,34 @@ header h1 {
 }
 
 .listbox {
-    @apply flex-1 mr-3 pb-3 bg-slate-200 rounded-br rounded-bl shadow;
+  @apply flex-1 ml-3 pb-3 bg-slate-200 rounded-br rounded-bl shadow;
+}
+.listbox:first-child {
+  @apply ml-0;
 }
 
 .listbox .heading {
-    @apply bg-slate-700 text-white text-lg rounded-tr rounded-tl pl-3 py-2;
+  @apply bg-slate-700 text-white text-lg rounded-tr rounded-tl pl-3 py-2;
 }
 .listbox .body ul {
-    @apply mx-3;
+  @apply mx-3;
 }
 .listbox .body li {
-    font-family: 'Nunito Sans', sans-serif;
-    @apply pt-1 pb-1 border-dotted border-b border-slate-400;
+  font-family: 'Nunito Sans', sans-serif;
+  @apply pt-1 pb-1 border-dotted border-b border-slate-400;
 }
 .listbox .body li:last-child {
-    @apply border-none;
+  @apply border-none;
 }
 
 .listbox .body li a {
-    @apply inline-block ml-2;
+  @apply inline-block ml-2;
 }
 
 footer {
-    @apply text-center text-sm mt-3 text-slate-900 font-thin;
+  @apply text-center text-sm mt-3 text-slate-900 font-thin;
 }
 
 footer a {
-    @apply text-slate-900;
+  @apply text-slate-900;
 }
