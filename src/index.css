@@ -22,7 +22,8 @@ header h1 {
 }
 
 .listbox {
-  @apply flex-1 ml-3 pb-3 bg-slate-200 rounded-br rounded-bl shadow;
+  @apply pb-3 bg-slate-200 rounded-br rounded-bl shadow; 
+  /* flex-1 ml-3  */
 }
 .listbox:first-child {
   @apply ml-0;
