@@ -6,7 +6,7 @@ import { faDAndD } from '@fortawesome/free-brands-svg-icons'
 export default function PageBanner() {
   return (
     <Typography variant='h1'>
-      <FontAwesomeIcon icon={ faDAndD} /> Screen of Holding
+      <FontAwesomeIcon icon={ faDAndD} /> Screen of Holdings
     </Typography>
   )
 }
